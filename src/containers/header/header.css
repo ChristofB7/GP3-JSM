@@ -105,6 +105,18 @@
     height: 100%;
 }
 
+@media screen and (max-width: 1280px) {
+    .gpt3__header-content {
+        flex: 0.75;
+    }
+
+    .gpt3__header-image img {
+        margin-bottom: 16rem;
+        height: 70%;
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 1050px) {
     .gpt3__header {
         flex-direction: column;
@@ -113,6 +125,8 @@
     .gpt3__header-content {
         margin: 0 0 3rem;
     }
+
+
 }
 
 @media screen and (max-width: 650px) {
